@@ -1,8 +1,4 @@
-# apple-reporter
-
-[![Build Status](https://travis-ci.org/beardon/apple-reporter.svg?branch=master)](https://travis-ci.org/beardon/apple-reporter)
-![Dependencies](https://david-dm.org/beardon/apple-reporter.svg)
-[![codecov.io](http://codecov.io/github/beardon/apple-reporter/coverage.svg?branch=master)](http://codecov.io/github/beardon/apple-reporter?branch=master)
+# lightsub-apple-reporter
 
 Promise-based [Apple iTunes Connect Reporter](http://help.apple.com/itc/appsreporterguide) for Node.js > 4.2.0.
 
@@ -11,11 +7,11 @@ Results are automagically ungzipped. In `Robot.XML` mode (which is default), the
 ## Installation
 
 ```bash
-npm i -S apple-reporter
+npm i -S lightsub-apple-reporter
 ```
 
 ```bash
-yarn add apple-reporter
+yarn add lightsub-apple-reporter
 ```
 
 ## Example
@@ -133,7 +129,7 @@ reporter.Finance.getStatus().then((status) => {
     console.error('Finance is down!');
 
     throw err;
-});  
+});
 ```
 
 ## API
